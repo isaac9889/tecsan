@@ -1,10 +1,10 @@
 <div class="header">
 
-    <div class="logoContainer">
+    <div class="logo-container">
         <img src="" alt="" class="logo">
     </div>
 
-    <nav class="menuContainer">
+    <nav class="menu-container">
         <ul>
             <li>¿Quiénes somos?</li>
             <li>Nuestros Servicios</li>
@@ -14,7 +14,7 @@
         </ul>
     </nav>
 
-    <div class="socialContainer">
+    <div class="social-container">
         <a href="" class="facebook"><i class="fa fa-facebook-square"></i></a>
         <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
         <a href="" class="whatsapp"><i class="fa fa-whatsapp "></i></a>
