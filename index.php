@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TECSANplus+</title>
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9e31194203.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
@@ -24,6 +27,7 @@
             include("main/section-2.php");
             include("main/section-3.php");
             include("main/section-4.php");
+            include("main/section-5.php");
 
         ?>
 
