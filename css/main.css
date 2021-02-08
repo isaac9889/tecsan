@@ -1,0 +1,99 @@
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Didact Gothic", sans-serif;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 1px;
+}
+
+p {
+  margin: 0px;
+}
+
+.header {
+  background: white;
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.16);
+  display: flex;
+  position: fixed;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+}
+.header-container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  max-height: 80px;
+  padding: 0px 30px;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.menu-container {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+
+.menu-item {
+  padding: 0px 19px 0px 20px;
+  position: relative;
+  color: #0E475A;
+  font-size: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.menu-item:hover {
+  opacity: 0.6;
+}
+.menu-item::after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  width: 1px;
+  background: #00A8C1;
+}
+.menu-item:last-child::after {
+  display: none;
+}
+
+.social-container {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  padding: 0px;
+  width: 130px;
+}
+
+.facebook,
+.instagram,
+.whatsapp {
+  font-size: 30px;
+}
+
+.facebook {
+  color: #3B5998;
+}
+
+.instagram {
+  color: #E1305C;
+}
+
+.whatsapp {
+  color: #25D366;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding: 100px 0px 0px 0px;
+  width: 100%;
+  max-width: 1920px;
+}
+
+/*# sourceMappingURL=main.css.map */

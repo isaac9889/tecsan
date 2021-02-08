@@ -4,41 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TECSANplus+</title>
+    <!-- Fonts -->
     <script src="https://kit.fontawesome.com/9e31194203.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
-    
-    <header class="header">
 
+    <!-- Header begins -->
+    <div class="header">
+        <?php include("components/header/header.php");?>
+    </div>
+    <!-- Header ends -->
+
+    <!-- Main begins -->
+    <div class="main">
         <?php
-            include("header/header.php");
+            include("components/main/section-1.php");
+            include("components/main/section-2.php");
+            include("components/main/section-3.php");
+            include("components/main/section-4.php");
+            include("components/main/section-5.php");
         ?>
+    </div>
+    <!-- Main begins -->
 
-    </header>
+    <!-- Footer begins -->
+    <div class="footer">
+        <?php include("components/footer/footer.php");?>
+    </div>
+    <!-- Footer begins -->
 
-    <main class="main">
-    
-        <?php
-            include("main/section-1.php");
-            include("main/section-2.php");
-            include("main/section-3.php");
-            include("main/section-4.php");
-            include("main/section-5.php");
-
-        ?>
-
-    </main>
-
-    <footer class="footer">
-
-        <?php
-            include("footer/footer.php");
-        ?>
-
-    </footer>
 </body>
 </html>

@@ -1,0 +1,37 @@
+@mixin font {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Didact Gothic', sans-serif;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    text-shadow: rgba(0, 0, 0, .2) 0px 0px 1px;
+
+}
+
+@mixin fontmenu {
+    color: #0E475A;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+@mixin hover {
+    cursor: pointer;
+
+    &:hover {
+        opacity: .6;
+
+    }
+
+}
+
+@mixin layout {
+    width: 100%;
+    max-width: 1920px;
+
+}
+
+@mixin fontsocial {
+    font-size: 30px;
+
+}
