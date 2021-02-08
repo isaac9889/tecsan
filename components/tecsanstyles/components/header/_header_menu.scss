@@ -1,0 +1,32 @@
+.menu-container {
+    display: flex;
+    width: auto;
+    height: auto;
+
+}
+
+.menu-item {
+    padding: 0px 19px 0px 20px;
+    position: relative;
+
+    @include fontmenu;
+    @include hover;
+
+    &::after {
+        content: "";
+        height: 100%;
+        position: absolute;
+        right: 0px;
+        width: 1px;
+        background: #00A8C1;
+    }
+
+    &:last-child {
+        &::after {
+            display: none;
+
+        }
+
+    }
+
+}

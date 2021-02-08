@@ -1,0 +1,31 @@
+.social-container {
+    align-items: center;
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    padding: 0px;
+    width: 130px;
+
+}
+
+.facebook,
+.instagram,
+.whatsapp {
+    @include fontsocial;
+}
+
+.facebook {
+    color: #3B5998;
+
+}
+
+.instagram {
+    color: #E1305C;
+
+}
+
+
+.whatsapp {
+    color: #25D366;
+
+}

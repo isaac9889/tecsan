@@ -1,0 +1,13 @@
+{
+  "name": "Tecsan",
+  "description": "Tecsan Project",
+  "version": "1.0.0",
+  "author": "Isaac Ortiz from GlideMedia <isaac.ortizse@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "scss": "sass --watch components/tecsanstyles:css"
+  },
+  "dependencies": {
+    "sass": "^1.24.2"
+  }
+}
