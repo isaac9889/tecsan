@@ -1,0 +1,513 @@
+    * {
+        margin: 0;
+        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    /* ----- ----- .page-1 ----- ----- */
+    
+    .page-1 {
+        background: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        background: url('../img/portafolio/bg3.jpg') #006666;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 3;
+    }
+    
+    .page-1 .fila-texto .contenedor-texto {
+        margin-top: 130px;
+        opacity: 0;
+    }
+    
+    .page-1 .fila-texto .contenedor-texto .logo {
+        align-items: center;
+        /* opacity: 0; */
+    }
+    
+    .page-1 .foto {
+        margin-top: 50px;
+        opacity: 0;
+    }
+    
+    .page-1 .foto .contenedor-foto {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .page-1 .foto .contenedor-foto img {
+        vertical-align: top;
+        border-radius: 50%;
+        border: 0px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .page-1 .boton .contenedor-entrar {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 50px;
+        text-decoration: none;
+        opacity: 0;
+    }
+    
+    .page-1 .boton .contenedor-entrar .texto {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .page-1 .boton .contenedor-entrar .texto .btn {
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .page-1 .boton .contenedor-entrar .texto .btn:hover {
+        background: #fff;
+        color: #000;
+        cursor: pointer;
+    }
+    /* ----- ----- .page-2 ----- ----- */
+    
+    .page-2 {
+        position: relative;
+        opacity: 0;
+        z-index: 2;
+    }
+    
+    .contenedor {
+        width: 100%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+    }
+    /* ----- ----- HEADER ----- ----- */
+    
+    .page-2 header {
+        background: url('../img/portafolio/bg3.jpg') #006666;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        max-height: 800px;
+        z-index: 4;
+    }
+    
+    header .contenedor-logo-menu {
+        padding: 25px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+    
+    header .contenedor-logo-menu .logo a {
+        display: block;
+    }
+    
+    header .contenedor-logo-menu .logo a img {
+        vertical-align: top;
+    }
+    
+    header .contenedor-logo-menu .menu {
+        text-align: right;
+        line-height: 50px;
+    }
+    
+    header .container .row .menu a {
+        margin-left: 60px;
+        color: #fff;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        font-size: 18px;
+    }
+    
+    header .container .row .menu a:hover {
+        border-bottom: 2px solid #fff;
+    }
+    
+    header .contenedor-texto {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 190px 0;
+    }
+    
+    header .contenedor-texto .texto {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        display: inline-block;
+        text-align: center;
+        padding: 20px 60px;
+    }
+    
+    header .contenedor-texto .texto h1,
+    header .contenedor-texto .texto h2 {
+        color: #fff;
+        font-weight: 300;
+        margin: 0;
+    }
+    
+    header .contenedor-texto .texto .nombre {
+        margin-bottom: 10px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+    
+    header .contenedor-texto .texto .profesion {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    /* ----- ----- MAIN ----- ----- */
+    
+    .page-2 .fondo {
+        background: url('../img/portafolio/bg-textura-2.jpg') #fff;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .page-2 .algo-de-mi {
+        background: #fff;
+    }
+    
+    .page-2 .algo-de-mi .contenedor {
+        overflow: visible;
+    }
+    
+    .page-2 .algo-de-mi {
+        text-align: center;
+    }
+    
+    .page-2 .algo-de-mi .foto {
+        margin-top: -60px;
+    }
+    
+    .page-2 .algo-de-mi .foto img {
+        vertical-align: top;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, 0.2);
+    }
+    
+    .page-2 .algo-de-mi .texto {
+        color: #5a5a5a;
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 30px;
+        width: 80%;
+        margin: 40px auto 60px auto;
+        padding: 0 15px;
+    }
+    
+    .page-2 .algo-de-mi .texto .titulo {
+        font-size: 34px;
+        line-height: 34px;
+        margin-bottom: 40px;
+        font-weight: 300;
+        color: #dd820d;
+        text-align: center;
+    }
+    
+    .page-2 .algo-de-mi .texto .bold {
+        color: #3895ea;
+        text-decoration: underline;
+    }
+    
+    .contenedor-main {
+        background-color: rgba(255, 255, 255, 0.3);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .main .proyectos {
+        /* background-color: rgba(255, 255, 255, 0); */
+        padding-top: 50px;
+    }
+    
+    .main .proyectos .container {
+        overflow: hidden;
+    }
+    
+    .main .proyectos .titulo {
+        font-size: 34px;
+        line-height: 34px;
+        margin-bottom: 40px;
+        color: #323068;
+        text-align: center;
+        margin-bottom: 50px;
+        font-weight: 300;
+    }
+    
+    .main .proyectos .contenedor-proyectos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto {
+        width: 23%;
+        margin-bottom: 40px;
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto .thumb {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto .thumb img {
+        width: 100%;
+        vertical-align: top;
+        border-radius: 3px;
+        opacity: 0.8;
+        /* border: 1.5px solid #fff; */
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto .thumb img:hover {
+        opacity: 1;
+        cursor: pointer;
+        border: 1.5px solid #000;
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto .descripcion {
+        text-align: center;
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto .descripcion .nombre {
+        font-weight: 700;
+        color: #387bea;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto .descripcion .nombre:hover {
+        cursor: pointer;
+        color: #3895ea;
+        opacity: .8;
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto .descripcion .categoria {
+        font-size: 16px;
+        color: #636363;
+    }
+    /* .main .proyectos .contenedor-proyectos .proyecto .descripcion .categoria:hover {
+        cursor: pointer;
+    } */
+    
+    .main .contacto {
+        padding-bottom: 45px 0;
+    }
+    
+    .contacto .titulo {
+        font-size: 34px;
+        line-height: 34px;
+        margin-bottom: 40px;
+        font-weight: 300;
+        color: #3895ea;
+        text-align: center;
+    }
+    
+    .contacto .formulario {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 300px;
+    }
+    
+    .contacto .formulario input[type="text"],
+    .contacto .formulario input[type="email"],
+    .contacto .formulario input[type="tel"],
+    .contacto .formulario textarea,
+    .contacto .formulario .contenedor-terminos input[type="checkbox"] {
+        bottom: 2px solido #cecece;
+        border-radius: 5px;
+        padding: 15px 20px;
+        font-size: 20px;
+        color: #a4a4a4;
+        /* margin: auto 50px; */
+    }
+    
+    .contacto .formulario input[type="text"]:focus,
+    .contacto .formulario input[type="email"]:focus,
+    .contacto .formulario input[type="tel"]:focus,
+    .contacto .formulario textarea:focus {
+        border: 2px solid #3895ea;
+    }
+    
+    .contacto .formulario input[type="text"],
+    .contacto .formulario input[type="tel"] {
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    
+    .contacto .formulario input[type="email"] {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    
+    .contacto .formulario textarea {
+        width: 100%;
+        height: 100px;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 100px;
+        max-height: 300px;
+        /* margin: auto; */
+        margin-bottom: 15px;
+    }
+    
+    .contacto .formulario .contenedor-terminos {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .contacto .formulario .boton {
+        margin: auto;
+        background: #3895ea;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        padding: 15px 40px;
+        cursor: pointer;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+    
+    .contacto .formulario .boton:hover {
+        background: #387bea;
+    }
+    /* ----- ----- FOOTER ----- ----- */
+    
+    footer {
+        background: url('../img/portafolio/bg9.jpg') #1e2b38;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    
+    footer .redes-sociales {
+        padding: 60px 35px;
+    }
+    
+    footer .redes-sociales .contenedor {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer .redes-sociales a {
+        color: #fff;
+        text-align: center;
+        width: 100px;
+        display: block;
+        padding: 15px 0;
+        border-radius: 3px;
+        font-size: 30px;
+        margin: 0 20px;
+        border-radius: 10px;
+    }
+    
+    footer .redes-sociales .twitter:hover {
+        background: #1da1f2;
+    }
+    
+    footer .redes-sociales .facebook:hover {
+        background: #3b5998;
+    }
+    
+    footer .redes-sociales .instagram:hover {
+        background: #e1306c;
+    }
+    
+    .restaurante .modal-content {
+        background: #000;
+    }
+    
+    .restaurante .modal-header {
+        color: #fff;
+    }
+    
+    .restaurante .modal-header .close {
+        color: #ffffff;
+        text-shadow: none;
+    }
+    
+    .restaurante .modal-header .close:hover {
+        color: #fff;
+    }
+    
+    .restaurante .btn-cerrar {
+        color: gray;
+    }
+    
+    .restaurante .btn-cerrar:hover {
+        color: #fff;
+    }
+    
+    .restaurante .mensaje-funcionalidad {
+        text-align: center;
+        /* background: #000; */
+        color: #ffffff;
+    }
+    
+    @media screen and (max-width: 992px) {
+        header .contenedor-logo-menu .logo {
+            margin-top: 30px;
+            text-align: center;
+        }
+        header .contenedor-logo-menu .menu {
+            text-align: center;
+        }
+        header .contenedor-logo-menu .menu a {
+            margin: 0 20px;
+        }
+        .contacto .formulario {
+            padding: 0 200px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        header .contenedor-logo-menu .logo {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        header .contenedor-logo-menu .menu {
+            text-align: center;
+        }
+        header .contenedor-logo-menu .menu a {
+            margin: 0 20px;
+        }
+        .contacto .formulario {
+            padding: 0 125px;
+        }
+    }
+    
+    @media screen and (max-width: 574px) {
+        .contacto .formulario input[type="text"],
+        .contacto .formulario input[type="email"] {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .contacto .formulario {
+            padding: 0 50px;
+        }
+    }
