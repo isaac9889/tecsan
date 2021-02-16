@@ -5,13 +5,15 @@
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     text-shadow: rgba(0, 0, 0, .2) 0px 0px 1px;
+    font-size: clamp(12px, 3vw, 23px);
 
 }
 
 @mixin fontmenu {
     color: #0E475A;
-    font-size: 20px;
+    font-size: clamp(10px, 1.5vw, 20px);
     text-transform: capitalize;
+    text-align: center;
 
 }
 
@@ -32,6 +34,6 @@
 }
 
 @mixin fontsocial {
-    font-size: 30px;
-
+    font-size: clamp(15px, 2.39vw, 30px);
+    padding: 0px 6px;
 }
