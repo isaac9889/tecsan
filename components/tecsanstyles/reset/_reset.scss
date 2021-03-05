@@ -3,9 +3,42 @@ body {
 
 }
 
-p {
-    margin: 0px;
+h2 {
+    font-size: clamp(21px, 3vw, 32px);
 
+}
+
+p {
+    margin: 21px 0px;
+
+}
+
+.styled {
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 1px solid #00A8C1;
+}
+
+.styledctr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-button {
+    background: #0CABC3;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    margin: 21px auto;
+    max-width: 268px;
+    padding: 12px 21px;
 }
 
 .logo {

@@ -1,0 +1,101 @@
+.section {
+    &__title {
+        display: flex;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__subtitle {
+        display: flex;
+    }
+
+    &__text {
+
+        &-title {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            color: #0E475A;
+
+            &::after {
+                border-bottom: 0px solid transparent;
+                border-left: 20px solid #0CABC3;
+                border-top: 20px solid transparent;
+                content: "";
+                display: block;
+                height: 0px;
+                margin-left: 30px;
+                right: 0px;
+                width: 0px;
+            }
+
+            &::before {
+                border-bottom: 0px solid transparent;
+                border-right: 20px solid #0E4357;
+                border-top: 20px solid transparent;
+                content: "";
+                display: block;
+                height: 0px;
+                margin-right: 30px;
+                right: 0px;
+                width: 0px;
+            }
+        }
+
+        &-subtitle {
+            color: black;
+            font-size: clamp(15px, 3vw, 26px);
+            border-bottom: 2px solid #00A8C1;
+        }
+
+        &-center {
+            text-align: center;
+        }
+
+    }
+
+    &__body {
+        display: grid;
+        grid-gap: 12px;
+        grid-template-columns: 1fr 250px;
+        width: 100%;
+    }
+
+    &__imagectr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__imagesection1 {
+        width: 100%;
+        height: auto;
+        max-width: 1060px;
+    }
+
+    &__imagesection-graphic2 {
+        width: 100%;
+        height: auto;
+        max-width: 467px;
+    }
+    &__divider {
+        border-top: 1px solid #AFAFB4;
+    }
+
+    &__twographic {
+        max-width: 1083px;
+        display: flex;
+        justify-content: space-around;
+        margin: 0px auto;
+    }
+
+    &__logos {
+        max-width: 1083px;
+        display: flex;
+        justify-content: space-around;
+        margin: 50px auto;
+    }
+}
