@@ -1,4 +1,4 @@
-<div class="section1">
+<div class="section1" id="acerca-de">
 
     <div class="section__title">
         <h2 class="section__text-title">¿Quiénes somos?</h2>

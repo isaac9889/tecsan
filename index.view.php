@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/alert.css">
+
+    <!-- -- Script Scroll -- -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/efectos.js"></script>
 </head>
 
 <body>
@@ -40,6 +44,11 @@
         <?php include("components/footer/footer.php");?>
     </div>
     <!-- Footer begins -->
+
+    <!-- -- Scripts -- -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    
 
 </body>
 </html>

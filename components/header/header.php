@@ -9,17 +9,17 @@
     </div>
 
     <nav class="menu-container">
-        <p class="menu-item">¿Quiénes somos?</p>
-        <p class="menu-item">Nuestros Servicios</p>
-        <p class="menu-item">Nuestros Clientes</p>
-        <p class="menu-item">Realiza tu cotización</p>
-        <p class="menu-item">Contáctanos</p>
+        <p class="menu-item"> <a data-scroll href="#acerca-de">¿Quiénes somos?</a></p>
+        <p class="menu-item"> <a data-scroll href="#servicios">Nuestros Servicios</a></p>
+        <p class="menu-item"> <a data-scroll href="#clientes">Nuestros Clientes</a></p>
+        <p class="menu-item"> <a data-scroll href="#cotizacion">Realiza tu cotización</a></p>
+        <p class="menu-item"> <a data-scroll href="#contactanos">Contáctanos</a></p>
     </nav>
 
     <div class="social-container">
-        <a href="" class="facebook"><i class="fab fa-facebook"></i></a>
-        <a href="" class="instagram"><i class="fa fa-instagram"></i></a>
-        <a href="" class="whatsapp"><i class="fa fa-whatsapp "></i></a>
+        <a href="https://www.facebook.com/tecsanplusmas/" class="facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/tecsanplusmas/" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://wa.me/+525521902685/?text=Hola%20me%20gustaria%20obtener%20mas%20informacion%20sobre%20tus%20servicios%20de%20sanitizacion" class="whatsapp" target="_blank"><i class="fa fa-whatsapp "></i></a>
     </div>
 
 </div>

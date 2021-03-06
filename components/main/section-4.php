@@ -1,4 +1,4 @@
-<div class="section4">
+<div class="section4" id="cotizacion">
 
     <div class="section__title">
         <h2 class="section__text-title">Realiza tu cotización</h2>

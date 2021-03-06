@@ -1,4 +1,4 @@
-<div class="section2">
+<div class="section2" id="servicios">
 
     <div class="section__title">
         <h2 class="section__text-title">Nuestros Servicios</h2>
