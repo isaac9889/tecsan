@@ -1,7 +1,7 @@
 var scroll = new SmoothScroll('a[href*="#"]', {
 
     // // Selectors
-    ignore: '[data-scroll-ignore]',
+    ignore: '#term',
     header: '.header-container',
     topOnEmptyHash: true,
 

@@ -33,4 +33,6 @@
         </div>
     </div>
 
+    <hr class="section__divider">
+
 </div>

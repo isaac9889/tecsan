@@ -12,6 +12,7 @@ if(isset($_POST['submit'])){
     $patio = $_POST['patio'];
     $superficie = $_POST['superficie'];
     $medio = $_POST['medio'];
+    $terminos = $_POST['terminos'];
 
     if (!empty($nombre)) {
         $nombre = trim($nombre);
@@ -72,6 +73,10 @@ if(isset($_POST['submit'])){
         $medio =stripcslashes($medio);
     } else{
         $errores .= 'Por favor ingresa por que medio te enteraste de nuestros servicios  <br>';
+    }
+
+    if ($terminos == false) {
+        $errores .= 'Por favor acepta nuestros terminos de uso y privacidad  <br>';
     }
 
     if(!$errores){

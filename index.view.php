@@ -35,6 +35,7 @@
             include("components/main/section-3.php");
             include("components/main/section-4.php");
             include("components/main/section-5.php");
+            include("components/main/section-6.php");
         ?>
     </div>
     <!-- Main begins -->
@@ -47,8 +48,8 @@
 
     <!-- -- Scripts -- -->
     <script src="js/jquery-3.6.0.min.js"></script>
-
-    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -147,6 +147,8 @@
                 <img class="section__imagesection-graphic2" src="assets/images/section2_service6-a2.png" title="Tecsan Logo" alt="Tecsan Logo">
             </picture>
         </div>
+
     </div>
+    <hr class="section__divider">
 
 </div>

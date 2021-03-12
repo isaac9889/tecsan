@@ -102,10 +102,19 @@
                 <p>Gracias por tu preferencia.</p>
             </div>
             <?php endif ?>
+            
+            <div class="styledctr">
+                <div class="contenedor-terminos">
+                    <input type="checkbox" name="terminos" id="terminos" required>
+                    <label for="terminos">Acepto los <a href="#term" data-toggle="modal" data-target="#terminos-modal">terminos de uso y privacidad</a></label>
+                </div>
+            </div>
 
             <button class="form-button" type="submit" name="submit">Enviar cotización</button>
-
+            
         </form>
     </div>
 
+    <hr class="section__divider">
 </div>
+
