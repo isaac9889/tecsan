@@ -17,6 +17,7 @@
     <!-- -- Script Scroll -- -->
     <script src="js/smooth-scroll.min.js"></script>
     <script src="js/efectos.js"></script>
+    
 </head>
 
 <body>
@@ -50,6 +51,7 @@
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/enviar.js"></script>
 
 </body>
 </html>
